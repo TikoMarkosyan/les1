@@ -367,5 +367,5 @@ function classNameOf(obj) {
   if(obj === null){
     return "Null";
   }
-  return obj['constructor'].name;
+  return getnameobj(['constructor']);
 }
