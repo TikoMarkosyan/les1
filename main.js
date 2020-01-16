@@ -3,7 +3,7 @@ function reverse(str) {
   var arr = str.split("");
   return arr.reverse().join("");
 }
-//2
+//22
 function polidrom(str) {
   var arr = str.split("");
   var str1 = arr.reverse().join();
